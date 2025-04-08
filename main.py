@@ -16,7 +16,7 @@ while True:
     print('__'*5)
 
     texto=input('Mensagem: ')
-    if texto=='fim' or 'Fim':
+    if texto=='fim':
         break
 
     mensagens.append({
